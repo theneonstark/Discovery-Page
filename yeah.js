@@ -41,7 +41,11 @@ lineIndex++;
 }
 setInterval(lineHide,5000);
 
+let lines = document.querySelectorAll('.line');
+// console.log(lines);
+lines[0].addEventlistner('click', ()=>{
 
+})
 
 
 
